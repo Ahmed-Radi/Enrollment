@@ -1,0 +1,1 @@
+from application import app #app it refer to the app variable in __init__.py

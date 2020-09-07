@@ -1,0 +1,32 @@
+    {% extends "layout.html" %}
+
+    {% block content %}
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form name="login" action="" method="POST" novalidate>
+                <fieldset>
+                    <legend>{{ title }}</legend>
+                    {{ form.hidden_tag() }}<!-- the "Form" value is come from routes file -->
+                    <p>
+                        {{ form.email.label }} <br>
+                        {{ form.email(size=35) }}
+                        {% for error in form.email.errors %}
+                            <span class="error-message">{{ error }}</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.password.label }} <br>
+                        {{ form.password(size=20) }}
+                        {% for error in form.password.errors %}
+                            <span class="error-message">{{ error }}</span>
+                        {% endfor %}
+                    </p>
+                    <p>
+                        {{ form.submit() }}
+                    </p>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+    {% endblock %}
