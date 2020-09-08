@@ -8,7 +8,7 @@
 
 ## Run Project
 You need to open **Terminal** press ``` Ctrl + ` ``` then **to open
-environment** write ``` venv/scripts/activate ``` then write ``` flask run ```
+environment** if you work on **Windows OS** write ``` venv/scripts/activate ``` if wrok on **Mac or Linux OS** write ``` source venv/scripts/activate ``` then write ``` flask run ```
 to **Run the Project**
 
 ## To deactivate environment
