@@ -5,11 +5,12 @@
 * [To deactivate environment](#to-deactivate-environment)
 * [Requirements](#requirements)
 
-
 ## Run Project
-You need to open **Terminal** press ``` Ctrl + ` ``` then **to open
-environment** if you work on **Windows OS** write ``` venv/scripts/activate ``` if wrok on **Mac or Linux OS** write ``` source venv/scripts/activate ``` then write ``` flask run ```
-to **Run the Project**
+* To install **Virtual environment** You need to open **Terminal** press ``` Ctrl + ` ``` then
+* ```py -m venv venv``` **to open environment** 
+* If you work on **Windows OS** write ``` venv/scripts/activate ``` 
+* If you wrok on **Mac or Linux OS** write ``` source venv/scripts/activate ``` 
+* Then write ``` flask run ``` to **Run the Project**
 
 ## To deactivate environment
 ```
@@ -24,3 +25,4 @@ deactivate
 ```
 pip install -r requirements.txt
 ```
+
